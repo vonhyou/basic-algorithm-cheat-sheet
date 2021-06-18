@@ -4,6 +4,7 @@ const int MAXN = 10000010;
 
 int prime[MAXN];
 bool isPrime[MAXN];
+
 void sieve_of_Euler(int n) {
   isPrime[0] = isPrime[1] = true;
 
