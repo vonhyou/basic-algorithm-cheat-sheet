@@ -35,6 +35,6 @@ public class Graph {
    * @param v end point
    */
   public void addEdge(int u, int v) {
-    edges.get(u).add(v);
+    edges.get(u - 1).add(v - 1);
   }
 }

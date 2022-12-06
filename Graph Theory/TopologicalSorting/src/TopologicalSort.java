@@ -49,7 +49,7 @@ public class TopologicalSort {
 
     while (!queue.isEmpty()) {
       int u = queue.poll();
-      result.add(u);
+      result.add(u + 1);
 
       // Enqueue the succeeding vertices and
       //   update the indegree of them
